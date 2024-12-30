@@ -1,0 +1,57 @@
+h1
+{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.gallery-item{
+    display: flex;
+     flex-wrap: wrap;
+}
+img
+{
+    width:300px ;
+    height: 200px;
+    margin:15px ;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px black;
+    border: 3px solid white;
+
+}
+body{
+    background-color: rgb(233,243,243);
+}
+img:active{
+    
+    transform: scale(2);
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+   
+   
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: black;
+  }
